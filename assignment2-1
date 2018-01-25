@@ -1,0 +1,8 @@
+# Write a procedure that accepts one parameter (count) and generates a list of (count) random integers, between 0 and 1000, and puts those integers into a list, and returns the list.
+
+def makeList(count):
+    hello = []
+    for x in range(0,count):
+        hi = random.randint(0,1000)
+        hello.append(hi)
+    print hello
