@@ -42,3 +42,7 @@ def report_card(a, b, c, d):
 def update_lastname(dict,str):
     dict["lastname"] = str
     print dict
+
+def update_lastname(dict,str):
+    dict["lastname"] = str
+    print dict
